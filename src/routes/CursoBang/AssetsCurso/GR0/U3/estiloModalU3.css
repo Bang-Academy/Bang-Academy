@@ -20,10 +20,24 @@
   display: flex;
 }
 
+.modalContainerConstelacion {
+  
+  position: absolute;
+  top: 22%;
+  left: 1%;
+  width: 100%;
+}
+
 .closeBtn {
   position: fixed;
   top: 4%;
   right: 2%;
+}
+
+.closeBtn2{
+  position: absolute;
+  top: 4%;
+  right: 4%;
 }
 
 #botonAbsoluto {

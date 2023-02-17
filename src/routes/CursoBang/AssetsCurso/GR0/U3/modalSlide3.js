@@ -12,7 +12,7 @@ const modalSlide3 = ({ propModal, open, onClose }) => {
   let selected_image = modalImagenes[propModal];
 
   return (
-    <div className="overlay z-20 ">
+    <div className="overlay z-20">
       <div className="modalContainer">
         <img
           src={selected_image}
@@ -21,7 +21,7 @@ const modalSlide3 = ({ propModal, open, onClose }) => {
       </div>
       <div
         onClick={onClose}
-        className="closeBtn w-[40px] h-[40px] cursor-pointer hover:scale-125"
+        className="closeBtn2 w-[40px] h-[40px] cursor-pointer hover:scale-125"
       >
         <img src={cerrar} className="" />
       </div>

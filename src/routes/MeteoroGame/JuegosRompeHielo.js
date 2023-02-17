@@ -60,9 +60,9 @@ export default function JuegosRompeHielo() {
             </h1>
           </button>
         </div>
-        <div className="text-center sm:text-left p-4 max-w-5xl grid ">
+        <div className=" sm:text-left  max-w-5xl grid ">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-            <div className="grid pt-4 sm:p-0  place-items-center  col-span-2 sm:col-span-3">
+            <div className="grid sm:p-0  place-items-center  col-span-2 sm:col-span-3">
               <img className="h-[60px] sm:h-[80px]" src={tituloRompeHielo} />
             </div>
 

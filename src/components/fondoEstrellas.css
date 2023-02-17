@@ -7,3 +7,29 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
+.fondoConstelacion {
+  width: 100%;
+  min-height: 100%;
+  background-image: url(../../src/routes/Recurso21.png);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#constelacion {
+  width: 100%;
+  min-height: 100%;
+  background-image: url(../../src/routes/Recurso18.png);
+  background-size: auto;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  #constelacion{
+    background-size: 80% auto;
+  }
+}

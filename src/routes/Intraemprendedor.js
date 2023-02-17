@@ -53,7 +53,7 @@ export default function Intraemprendedor() {
               </div>
 
               <div className="grid justify-center sm:m-4">
-                <button onClick={() => setShowModal(true)}>dasdas</button>
+                <button onClick={() => setShowModal(true)}><img className="cursor-pointer w-[200px] sm:w-[250px] hover:scale-125 "  alt="Logo" src={preguntas}/></button>
               </div>
 
               <div className="grid justify-center sm:m-4">
