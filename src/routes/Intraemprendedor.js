@@ -5,13 +5,14 @@ import tituloIntraemprendedor from "../assets/tituloIntraemprendedor.png";
 import aturitmo from "../assets/aturitmo.png";
 import práctica from "../assets/práctica.png";
 import preguntas from "../assets/preguntas.png";
-import ModalPreguntas from "./Modals/ModalPreguntas";
+import MODALPREGUNTAS from "./Modals/ModalPreguntas";
+import MODALTALLER from "./Modals/ModalTaller";
 import "../../src/components/fondoEstrellas.css";
 import { Fragment } from "react";
 import "../routes/CursoBang/CursoBang";
 
 export default function Intraemprendedor() {
-  const [showModal, setShowModal] = useState(false);
+  const [openModal, setOpenModal] = useState(false);
 
   function onClickHandler() {
     history.push("/NebulosaInnova");
@@ -28,9 +29,7 @@ export default function Intraemprendedor() {
                 alt="image1"
                 className="h-[40px] sm:h-[50px]"
               />
-              <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
-                Volver
-              </h1>
+              <h1 className="font-bold pt-1 text-white">Volver</h1>
             </button>
           </div>
           <div className="text-center sm:text-left p-4 max-w-5xl grid ">
@@ -52,21 +51,41 @@ export default function Intraemprendedor() {
                 </a>
               </div>
 
-              <div className="grid justify-center sm:m-4">
-                <button onClick={() => setShowModal(true)}><img className="cursor-pointer w-[200px] sm:w-[250px] hover:scale-125 "  alt="Logo" src={preguntas}/></button>
+              <div className="relative grid justify-center sm:m-4">
+                <div className="relative">
+                  <button onClick={() => setOpenModal(true)}>
+                    <img
+                      className="cursor-pointer w-[200px] sm:w-[250px] hover:scale-125 "
+                      alt="Logo"
+                      src={preguntas}
+                    />
+                  </button>
+
+                  <MODALPREGUNTAS
+                    open={openModal}
+                    onClose={() => setOpenModal(false)}
+                  />
+                </div>
               </div>
 
               <div className="grid justify-center sm:m-4">
-                <img
-                  className="cursor-pointer w-[200px] sm:w-[250px] hover:scale-125 "
-                  src={práctica}
-                  alt="Logo"
-                />
+                <div className="relative">
+                  <button onClick={() => setOpenModal(true)}>
+                    <img
+                      className="cursor-pointer w-[200px] sm:w-[250px] hover:scale-125 "
+                      src={práctica}
+                      alt="Logo"
+                    />
+                  </button>
+                  <MODALTALLER
+                    open={openModal}
+                    onClose={() => setOpenModal(false)}
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <ModalPreguntas isVisible={showModal} />
       </section>
     </Fragment>
   );

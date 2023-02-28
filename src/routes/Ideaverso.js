@@ -20,7 +20,7 @@ export default function Ideaverso() {
               alt="image1"
               className="h-[40px] sm:h-[50px]"
             />
-            <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
+            <h1 className="font-bold pt-1 text-white">
               Inicio
             </h1>
           </button>

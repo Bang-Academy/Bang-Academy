@@ -23,7 +23,7 @@ const ModalInicio = () => {
               alt="image1"
               className="h-[40px] sm:h-[50px]"
             />
-            <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
+            <h1 className="font-bold pt-1 text-white">
               Inicio
             </h1>
           </button>
@@ -38,18 +38,18 @@ const ModalInicio = () => {
             />
           </div>
           <div className="text-center ">
-            <h1 className="text-1xl sm:text-2xl font-['Montserrat'] sm:col-span-2 text-white ">
+            <h1 className="text-1xl sm:text-2xl sm:col-span-2 text-white ">
               Por millones de años las constelaciones han ayudado a miles de
               civilizaciones entender el universo y comprender que todos estamos
               conectados.
             </h1>
-            <h2 className="pt-8 text-1xl sm:text-2xl font-['Montserrat'] pb-4 font-semibold text-white">
+            <h2 className="pt-8 text-1xl sm:text-2xl pb-4 font-semibold text-white">
               ¡Conéctate con el conocimiento que tiene nuestra constelación!
             </h2>
 
             <button class=" border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center">
               <span
-                className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                className="border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                 onClick={handleOKClick}
               >
                 Descubrir

@@ -47,7 +47,7 @@ export default function Login() {
             onClick={googleLogin}
             className="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center"
           >
-            <span className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500">
+            <span className="border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500">
               Ingresar
             </span>
           </button>

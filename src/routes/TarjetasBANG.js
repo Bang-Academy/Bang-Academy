@@ -24,9 +24,7 @@ export default function TarjetasBANG() {
               alt="image1"
               className="h-[40px] sm:h-[50px]"
             />
-            <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
-              Volver
-            </h1>
+            <h1 className="font-bold  pt-1 text-white">Volver</h1>
           </button>
         </div>
 
@@ -42,7 +40,7 @@ export default function TarjetasBANG() {
             <div className="">
               <button class="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center">
                 <a
-                  className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                  className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                   href="/Crispi"
                 >
                   Crispi
@@ -57,7 +55,7 @@ export default function TarjetasBANG() {
             <div className="">
               <button class="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center">
                 <a
-                  className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                  className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                   href="/Carmel"
                 >
                   Carmel
@@ -72,7 +70,7 @@ export default function TarjetasBANG() {
             <div className="">
               <button class="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center ">
                 <a
-                  className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                  className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                   href="/Cesia"
                 >
                   Cesia
@@ -87,7 +85,7 @@ export default function TarjetasBANG() {
             <div className="">
               <button class="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center">
                 <a
-                  className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                  className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                   href="/Cori"
                 >
                   Cori
@@ -102,7 +100,7 @@ export default function TarjetasBANG() {
             <div className="">
               <button class="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center">
                 <a
-                  className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
+                  className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500"
                   href="/Cristal"
                 >
                   Cristal

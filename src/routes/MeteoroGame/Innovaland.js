@@ -27,9 +27,7 @@ export default function Innovaland() {
               alt="image1"
               className="h-[40px] sm:h-[50px]"
             />
-            <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
-              Volver
-            </h1>
+            <h1 className="font-bold  pt-1 text-white">Volver</h1>
           </button>
         </div>
         <div className="text-center sm:text-left p-4 max-w-5xl grid ">

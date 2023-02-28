@@ -21,7 +21,6 @@
 }
 
 .modalContainerConstelacion {
-  
   position: absolute;
   top: 22%;
   left: 1%;
@@ -34,7 +33,7 @@
   right: 2%;
 }
 
-.closeBtn2{
+.closeBtn2 {
   position: absolute;
   top: 4%;
   right: 4%;

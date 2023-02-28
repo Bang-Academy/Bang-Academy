@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75a92f9a.css",
-    "main.js": "/static/js/main.e39f5f64.js",
+    "main.css": "/static/css/main.2aedc3d8.css",
+    "main.js": "/static/js/main.ce95a9fc.js",
     "static/media/PodcastGR2U1.wav": "/static/media/PodcastGR2U1.69506207cb3eaced56b4.wav",
     "static/media/PodcastGR4U1.mp3": "/static/media/PodcastGR4U1.e6147e32d6d45b83e3d2.mp3",
     "static/media/PodcastGR1U1.mp3": "/static/media/PodcastGR1U1.19b3278d527214a3e187.mp3",
@@ -191,11 +191,11 @@
     "static/media/Estrella.png": "/static/media/Estrella.e252326dec67ce07a5f4.png",
     "static/media/preguntas.png": "/static/media/preguntas.1edae26e9c49160a1106.png",
     "index.html": "/index.html",
-    "main.75a92f9a.css.map": "/static/css/main.75a92f9a.css.map",
-    "main.e39f5f64.js.map": "/static/js/main.e39f5f64.js.map"
+    "main.2aedc3d8.css.map": "/static/css/main.2aedc3d8.css.map",
+    "main.ce95a9fc.js.map": "/static/js/main.ce95a9fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.75a92f9a.css",
-    "static/js/main.e39f5f64.js"
+    "static/css/main.2aedc3d8.css",
+    "static/js/main.ce95a9fc.js"
   ]
 }

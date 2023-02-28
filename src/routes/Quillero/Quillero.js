@@ -55,9 +55,7 @@ export default function Quillero() {
             alt="image1"
             className="h-[40px] sm:h-[50px]"
           />
-          <h1 className="font-bold font-['Montserrat'] pt-1 text-white">
-            Volver
-          </h1>
+          <h1 className="font-bold  pt-1 text-white">Volver</h1>
         </button>
       </div>
       <div className="absolute invisible xl:visible sm:top-48 sm:left-52">
@@ -97,7 +95,7 @@ export default function Quillero() {
                 onClick={get_random_image}
                 className="border border-white text-white  py-1.5 px-2 rounded-full inline-flex items-center"
               >
-                <a className="font-['Montserrat'] border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500">
+                <a className=" border-none rounded-full py-1.5 px-8 font-semibold bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-pink-500 hover:to-yellow-500">
                   Inspirate más
                 </a>
               </button>
